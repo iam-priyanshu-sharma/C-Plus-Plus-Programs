@@ -7,32 +7,25 @@ class Admission
 {
 protected:
     string sname, fname, mname;
-    int roll, age, entrance_no;
+    int roll, age;
     int64_t contact;
 
 public:
     void getstu()
     {
-        cout << "\nEnter Your Entrance Exam Marks:";
-        cin >> entrance_no;
-        if (entrance_no < 60)
-            cout << "\nNot Eligible For Admission.";
-        else
-        {
-            cin.ignore();
-            cout << "\nEnter Student Name:";
-            getline(cin, sname);
-            cout << "\nEnter Father's Name:";
-            getline(cin, fname);
-            cout << "\nEnter Mother's Name:";
-            getline(cin, mname);
-            cout << "\nEnter Contact Number:";
-            cin >> contact;
-            cout << "\nEnter student roll no.:";
-            cin >> roll;
-            cout << "\nEnter student age:";
-            cin >> age;
-        }
+        cin.ignore();
+        cout << "\nEnter Student Name:";
+        getline(cin, sname);
+        cout << "\nEnter Father's Name:";
+        getline(cin, fname);
+        cout << "\nEnter Mother's Name:";
+        getline(cin, mname);
+        cout << "\nEnter Contact Number:";
+        cin >> contact;
+        cout << "\nEnter student roll no.:";
+        cin >> roll;
+        cout << "\nEnter student age:";
+        cin >> age;
     }
     void display()
     {
@@ -111,10 +104,18 @@ public:
 };
 int main()
 {
+    int entrance_no;
     Grade G;
-    G.getstu();
-    G.getresult();
-    G.getproject();
-    G.getgrade();
+    cout << "\nEnter Your Entrance Exam Marks:";
+    cin >> entrance_no;
+    if (entrance_no < 60)
+        cout << "\nNot Eligible For Admission.";
+    else
+    {
+        G.getstu();
+        G.getresult();
+        G.getproject();
+        G.getgrade();
+    }
     return 0;
 }
