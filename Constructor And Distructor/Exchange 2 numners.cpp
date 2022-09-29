@@ -12,7 +12,7 @@ public:
     {
         x = a;
         y = b;
-        cout << "\nBefore interchanging:\n1st varible=" << x << "\n2n Variable" << y;
+        cout << "\nBefore interchanging:\n1st varible=" << x << "\n2n Variable=" << y;
         z = x;
         x = y;
         y = z;
