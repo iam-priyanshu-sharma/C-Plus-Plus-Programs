@@ -66,7 +66,7 @@ public:
 			}
 			div = num1 / num2;
 			cout << "\n Division of two numbers = " << div;
-
+			break;
 		case 5:
 			cout << " \n Enter the First number = ";
 			cin >> num1;
@@ -78,7 +78,7 @@ public:
 						"\n Please enter the divisor once again:";
 				cin >> num2;
 			}
-			rem_div = a % b;
+			rem_div = num1 % num2;
 			cout << "\nRemainder division of two numbers = " << rem_div;
 			break;
 
