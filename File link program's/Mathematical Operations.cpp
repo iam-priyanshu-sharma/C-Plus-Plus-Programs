@@ -60,7 +60,7 @@ public:
 			cin >> num2;
 			while (num2 == 0)
 			{
-				cout << "\n Divisor canot be zero"
+				cout << "\n Divisor cannot be zero"
 						"\n Please enter the divisor once again:";
 				cin >> num2;
 			}
@@ -74,7 +74,7 @@ public:
 			cin >> num2;
 			while (num2 == 0)
 			{
-				cout << "\n Divisor canot be zero"
+				cout << "\n Divisor cannot be zero"
 						"\n Please enter the divisor once again:";
 				cin >> num2;
 			}
