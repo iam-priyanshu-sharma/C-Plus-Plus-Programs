@@ -19,7 +19,6 @@ public:
 };
 int main()
 {
-    char a;
     Calculator C;
     C.calculator();
     while (1)
