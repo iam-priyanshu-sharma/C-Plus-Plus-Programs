@@ -3,9 +3,7 @@
     {
       "name": "Windows",
       "includePath": [
-        "${workspaceFolder}/**",
-        "C:msys64/mingw64/include",
-        "C:MinGW/include"
+        "${workspaceFolder}/**"
       ],
       "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
       "windowsSdkVersion": "10.0.22621.0",
