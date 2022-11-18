@@ -67,7 +67,7 @@ int main()
         cout << intStack.top() << endl;
 
         // manipulate string stack
-        stringStack.push("codezclub");
+        stringStack.push("Priyanshu");
         cout << stringStack.top() << std::endl;
         stringStack.pop();
     }

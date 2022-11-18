@@ -41,7 +41,7 @@ int main()
     Stack<string> str_stack;
     int_stack.push(67);
     str_stack.push("Hello");
-    str_stack.push("Codezclub");
+    str_stack.push("Priyanshu");
     cout << int_stack.pop() << endl;
     cout << str_stack.pop() << endl;
     cout << str_stack.pop() << endl;
